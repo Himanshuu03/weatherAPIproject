@@ -181,6 +181,18 @@ h1{
     padding: unset;
     margin-bottom:1px;
 }
+.errorHandling{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.errorHandling p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: hsla(0, 100%, 50%, 0.8);
+}
 .active{
-    display: flex;  
+    display: flex;
 }
